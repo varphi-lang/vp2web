@@ -1,0 +1,17 @@
+[project]
+name = "vp2web"
+version = "1.0.0"
+description = "A Varphi compiler that lowers Varphi into a programmatic session for use by a JS frontend."
+readme = "README.md"
+authors = [
+    { name = "Varphi", email = "support@varphi-lang.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "varphi-devkit>=4.0.0",
+    "vp2py>=4.0.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
